@@ -1,0 +1,14 @@
+server:
+  port: 8080 
+
+zuul:
+  routes:
+    races: /races/**
+    participants: /participants/**
+  
+   
+   
+logging:
+ level:
+   ROOT: INFO
+   org.springframework.web: DEBUG 
